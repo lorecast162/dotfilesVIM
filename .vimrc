@@ -21,6 +21,7 @@ Plugin 'powerline/powerline'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim/killersheep'
+Plugin 'flazz/vim-colorschemes'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -37,3 +38,4 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 let g:airline_theme='deus'
 let g:airline_powerline_fonts = 1
+
