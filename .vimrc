@@ -5,6 +5,7 @@ set shiftwidth=4
 set nohlsearch
 set nowrap
 set number
+set mouse=a
 syntax on
 
 filetype off                  " required
