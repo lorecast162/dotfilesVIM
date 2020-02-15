@@ -5,6 +5,7 @@ set shiftwidth=4
 set nohlsearch
 set nowrap
 set number
+set mouse=a
 syntax on
 
 filetype off                  " required
@@ -16,7 +17,7 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'powerline/powerline'
 Plugin 'vim-airline/vim-airline'
