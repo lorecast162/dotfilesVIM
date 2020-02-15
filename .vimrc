@@ -5,6 +5,7 @@ set shiftwidth=4
 set nohlsearch
 set nowrap
 set number
+syntax on
 
 filetype off                  " required
 
@@ -38,4 +39,6 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 let g:airline_theme='deus'
 let g:airline_powerline_fonts = 1
+
+let g:netrw_banner = 0
 
