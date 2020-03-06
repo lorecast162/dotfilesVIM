@@ -44,4 +44,4 @@ let g:airline_theme='dracula'
 let g:airline_powerline_fonts = 1
 
 color dracula
-
+let g:netrw_banner = 0
