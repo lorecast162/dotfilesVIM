@@ -58,11 +58,12 @@ color dracula
 " get rid of the banner in netrw --lorecast162
 let g:netrw_banner = 0
 
+"TODO add bindings to handle tabs and splits with LEADER
 " set space to do nothing --lorecast162
-nnoremap <Space> <Nop>
+"nnoremap <Space> <Nop>
 
 " remap space to leader key --lorecast162
 "let mapleader = "\<Space>"
 
 " rapid key bindings with leader --lorecast162
-map <Leader>q q <CR>
+"map <Leader>q q <CR>
