@@ -13,6 +13,9 @@ set number
 set mouse=a
 " turn on syntax highlighting --lorecast162
 syntax on
+" avoid vim overriding terminal background --lorecast162
+autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE
+autocmd ColorScheme * highlight NonText ctermbg=NONE guibg=NONE
 
 filetype off                  " required
 
